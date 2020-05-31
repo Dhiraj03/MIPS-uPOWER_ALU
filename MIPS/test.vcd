@@ -1,0 +1,77 @@
+$date
+	Sun May 31 23:22:31 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_ALU $end
+$var wire 1 ! sig_branch $end
+$var wire 32 " ALU_result [31:0] $end
+$var reg 6 # funct [5:0] $end
+$var reg 16 $ immediate [15:0] $end
+$var reg 6 % opcode [5:0] $end
+$var reg 32 & rs_content [31:0] $end
+$var reg 32 ' rt_content [31:0] $end
+$var reg 5 ( shamt [4:0] $end
+$scope module testlol $end
+$var wire 6 ) funct [5:0] $end
+$var wire 16 * immediate [15:0] $end
+$var wire 6 + opcode [5:0] $end
+$var wire 32 , rs_content [31:0] $end
+$var wire 32 - rt_content [31:0] $end
+$var wire 5 . shamt [4:0] $end
+$var reg 32 / ALU_result [31:0] $end
+$var reg 1 ! sig_branch $end
+$var reg 32 0 signExtend [31:0] $end
+$var reg 32 1 signed_rs [31:0] $end
+$var reg 32 2 signed_rt [31:0] $end
+$var reg 32 3 temp [31:0] $end
+$var reg 32 4 zeroExtend [31:0] $end
+$var integer 32 5 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 5
+bx 4
+bx 3
+b100 2
+b10 1
+bx 0
+b110 /
+b0 .
+b100 -
+b10 ,
+b0 +
+b0 *
+b100000 )
+b0 (
+b100 '
+b10 &
+b0 %
+b0 $
+b100000 #
+b110 "
+x!
+$end
+#10
+b111 "
+b111 /
+b10 4
+b10 0
+b0 2
+b101 1
+b0 '
+b0 -
+b101 &
+b101 ,
+b10 $
+b10 *
+b0 #
+b0 )
+b100011 %
+b100011 +

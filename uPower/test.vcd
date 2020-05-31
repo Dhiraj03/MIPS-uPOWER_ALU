@@ -1,0 +1,115 @@
+$date
+	Sun May 31 23:24:18 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module t_ALU $end
+$var wire 1 ! Branch $end
+$var wire 64 " ALU_result [63:0] $end
+$var reg 1 # aa $end
+$var reg 64 $ bi [63:0] $end
+$var reg 64 % bo [63:0] $end
+$var reg 14 & ds [13:0] $end
+$var reg 6 ' opcode [5:0] $end
+$var reg 1 ( rc $end
+$var reg 64 ) rs [63:0] $end
+$var reg 64 * rt [63:0] $end
+$var reg 16 + si [15:0] $end
+$var reg 2 , xods [1:0] $end
+$var reg 10 - xox [9:0] $end
+$var reg 9 . xoxo [8:0] $end
+$scope module t $end
+$var wire 1 # aa $end
+$var wire 64 / bi [63:0] $end
+$var wire 64 0 bo [63:0] $end
+$var wire 14 1 ds [13:0] $end
+$var wire 6 2 opcode [5:0] $end
+$var wire 1 ( rc $end
+$var wire 64 3 rs [63:0] $end
+$var wire 64 4 rt [63:0] $end
+$var wire 16 5 si [15:0] $end
+$var wire 2 6 xods [1:0] $end
+$var wire 10 7 xox [9:0] $end
+$var wire 9 8 xoxo [8:0] $end
+$var reg 64 9 ALU_result [63:0] $end
+$var reg 1 ! Branch $end
+$var reg 32 : sign16ExtendSI [31:0] $end
+$var reg 32 ; signExtendDS [31:0] $end
+$var reg 32 < signExtendSI [31:0] $end
+$var reg 32 = signed_rs [31:0] $end
+$var reg 32 > signed_rt [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 >
+b11 =
+b0 <
+b0 ;
+b0 :
+b111 9
+b100001010 8
+b0 7
+b0 6
+b0 5
+b100 4
+b11 3
+b11111 2
+b0 1
+b0 0
+b0 /
+b100001010 .
+b0 -
+b0 ,
+b0 +
+b100 *
+b11 )
+0(
+b11111 '
+b0 &
+b0 %
+b0 $
+0#
+b111 "
+x!
+$end
+#10
+b100 "
+b100 9
+b11000 >
+b10100 =
+b101000 .
+b101000 8
+b11000 *
+b11000 4
+b10100 )
+b10100 3
+#20
+b100010 "
+b100010 9
+b10100000000000000000 :
+b1010 <
+b11000 =
+b1010 +
+b1010 5
+b11000 )
+b11000 3
+b1110 '
+b1110 2
+#30
+b100001 "
+b100001 9
+b101110000000000000000 :
+b10111 <
+b1010 =
+b10111 +
+b10111 5
+b1010 )
+b1010 3
+b100000 '
+b100000 2
